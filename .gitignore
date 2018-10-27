@@ -1,0 +1,9 @@
+# Thumbnails
+.DS_Store
+
+# Node modules
+/node_modules
+
+# Build output
+/dist
+/target

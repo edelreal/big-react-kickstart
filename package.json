@@ -4,7 +4,8 @@
   "description": "Kickstart featuring: Webpack 4, Babel 7, ESLint, React 16.7 alpha, HMR, React Router, and Material-UI.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint  --ext .js --ext .json --ext .jsx webpack/ src/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/edelreal/big-react-kickstart/issues"
   },
-  "homepage": "https://github.com/edelreal/big-react-kickstart#readme"
+  "homepage": "https://github.com/edelreal/big-react-kickstart#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-json": "^1.2.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-merge": "^4.1.4"
+  }
 }
