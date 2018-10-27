@@ -14,4 +14,4 @@
   * `autocomplete-modules`
   * `color-picker`; configure to use `Command-Shift-H` and hex value as preferred.
   * `docblockr`
-  * `linter-eslint`; install `linter` as dependency. Disable Linter, keep Diagnostics. Install dependencies.
+  * `linter-eslint`; do not install `linter` as a dependency.
