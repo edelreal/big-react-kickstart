@@ -8,6 +8,7 @@
   * `atom-ide-ui`
   * `ide-rust`
   * `ide-typescript`
+  * `atom-beautify`
   * `file-icons`
   * `highlight-selected`
   * `autocomplete-modules`
