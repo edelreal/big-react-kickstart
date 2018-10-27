@@ -1,5 +1,13 @@
 module.exports = {
-  extends: 'airbnb',
+  'env': {
+      'browser': true,
+  },
+
+  extends: [
+    'airbnb',
+    'eslint:recommended',
+    'plugin:react/recommended',
+  ],
 
   rules: {
     'semi': ['warn', 'never'],
@@ -7,5 +15,6 @@ module.exports = {
 
   plugins: [
     'json',
+    'react',
   ],
-};
+}
