@@ -1,0 +1,19 @@
+{
+  "name": "big-react-kickstart",
+  "version": "0.1.0",
+  "description": "Kickstart featuring: Webpack 4, Babel 7, ESLint, React 16.7 alpha, HMR, React Router, and Material-UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edelreal/big-react-kickstart.git"
+  },
+  "author": "Elías E. del Real",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edelreal/big-react-kickstart/issues"
+  },
+  "homepage": "https://github.com/edelreal/big-react-kickstart#readme"
+}
